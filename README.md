@@ -5,4 +5,6 @@ If one whiches to use the tool the recomendation is to download the vbs file to 
 
 The input data type is  mascot generic format file(s)
 A text file of search sequences must be selected in the second pop-up, example provided
+
   -A autoformatting script for the input syntax is in search sequences autoformatting branch
+Example outpur reports are provided
