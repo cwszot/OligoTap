@@ -251,6 +251,7 @@ For Each mgf in tempfile
 				m_z_int=""
 				if charge_comparison="y" then 
 					If IsNumeric(m_z_z) Then
+						else
 						'...do something
 						MsgBox "Common issue is inappropriate peak picking, check spectra are SNAPed with charge assignemnt"&Chr(13)&"all ions must assigned charge in MGF file(s)"
 						WScript.Quit()
