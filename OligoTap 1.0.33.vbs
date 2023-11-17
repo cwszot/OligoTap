@@ -1729,7 +1729,7 @@ For Each mgf in tempfile
 									light_upper_window=oligofragments(c10)-small_dalton
 									light_lower_window=oligofragments(c10)-big_dalton
 									for lightest_cluster_check_counter=1 to oligofragmentcount
-									MsgBox "m/z="&CStr(oligofragments(lightest_cluster_check_counter))&Chr(13)&"light_upper_window="&CStr(light_upper_window)&Chr(13)&"y_mz="&CStr((y_mz(c9)+(1*H)))&Chr(13)&"light_lower_window="&CStr(light_lower_window)
+									'MsgBox "m/z="&CStr(oligofragments(lightest_cluster_check_counter))&Chr(13)&"light_upper_window="&CStr(light_upper_window)&Chr(13)&"y_mz="&CStr((y_mz(c9)+(1*H)))&Chr(13)&"light_lower_window="&CStr(light_lower_window)
 										light_check=oligofragments(lightest_cluster_check_counter)
 										if light_check<light_upper_window and light_check>light_lower_window then
 											light_logic=false
